@@ -51,7 +51,7 @@ class ALDownloader {
       _binders.add(aBinder);
     }
 
-    await initialize();
+    //await initialize();
 
     var task = _getTaskFromUrl(url);
 
